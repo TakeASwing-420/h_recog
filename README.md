@@ -64,7 +64,9 @@ The runtime workflow in [ocr_handwriting.py](ocr_handwriting.py) follows this se
 
 ## Run Command
 - install the essential libraries
-- `python ocr_handwriting.py --model ocr_model.h5 --image images/umbc_address.png --output test_outputs/umbc_address_annotated.png`
+``` bash
+python ocr_handwriting.py --model ocr_model.h5 --image images/umbc_address.png --output test_outputs/umbc_address_annotated.png
+```
 
 
 ## Output Behavior
